@@ -4,7 +4,7 @@ import { getZone } from "../../setup/zones/get-zone.js";
 export const version = '1.4.1';
 
 // exports a WebSocket connection using the Socket.IO library.
-export const socket = io('https://ptcgsim.online');
+export const socket = io('http://localhost:4000');
 
 // export const socket = io('http://localhost:4000/');
 // export references to HTML elements 'selfContainer' and 'oppContainer', and their respective content window documents for ease of access to the iframes

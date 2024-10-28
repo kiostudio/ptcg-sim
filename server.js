@@ -30,7 +30,7 @@ async function main() {
     const io = new Server(server, {
         connectionStateRecovery: {},
         cors: {
-            origin: ["https://admin.socket.io", "https://ptcgsim.online/"],
+            origin: ["http://localhost:4000"],
             credentials: true
         }
     });
